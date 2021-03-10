@@ -6,7 +6,7 @@
 /*   By: ftudini <ftudini@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/27 20:40:24 by ftudini           #+#    #+#             */
-/*   Updated: 2021/03/06 12:46:48 by ftudini          ###   ########.fr       */
+/*   Updated: 2021/03/07 18:25:15 by ftudini          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 		start++;
 	while (end > start && in_set(s1[end], set))
 		end--;
-	str = (char*)malloc(sizeof(*s1) * (end - start + 1));
+	str = (char*)malloc(sizeof(char) * (end - start + 1));
 	if (!str)
 		return (NULL);
 	while (start <= end)
