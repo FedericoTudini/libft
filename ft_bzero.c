@@ -6,7 +6,7 @@
 /*   By: ftudini <ftudini@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/11 15:03:58 by ftudini           #+#    #+#             */
-/*   Updated: 2021/02/26 17:33:17 by ftudini          ###   ########.fr       */
+/*   Updated: 2021/03/13 11:45:42 by ftudini          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	memset(s, 0, n);
+	ft_memset(s, 0, n);
 }

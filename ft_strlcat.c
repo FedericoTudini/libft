@@ -3,22 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ftudini <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: ftudini <ftudini@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/02 10:31:18 by ftudini           #+#    #+#             */
-/*   Updated: 2020/12/02 11:33:02 by ftudini          ###   ########.fr       */
+/*   Updated: 2021/03/13 11:48:38 by ftudini          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-unsigned int	ft_strlen(char *str)
-{
-	unsigned int i;
-
-	i = 0;
-	while (str[i] != '\0')
-		i++;
-	return (i);
-}
+#include "libft.h"
 
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 {
